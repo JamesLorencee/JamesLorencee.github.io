@@ -1,1 +1,11 @@
-{"data":{"user":{"name":"James Lorence","bio":"","avatarUrl":"https://avatars.githubusercontent.com/u/113967575?u=d35c0b10969eedaace6ada48befc41426efe54fb&v=4","location":"Manila, Philippines","pinnedItems":{"totalCount":0,"edges":[]}}}}
+{
+  "data": {
+    "user": {
+      "name": "James Lorence",
+      "bio": "",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113967575?u=d35c0b10969eedaace6ada48befc41426efe54fb&v=4",
+      "location": "Manila, Philippines",
+      "pinnedItems": {"totalCount": 0, "edges": []}
+    }
+  }
+}
