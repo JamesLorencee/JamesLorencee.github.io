@@ -46,14 +46,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle:
-    "Aspiring Cybersecurity Engineer professional with Red and Blue Team Fundamentals",
+  subTitle: "Aspiring Cybersecurity Engineer professional with Red and Blue Team Fundamentals",
   skills: [
     emoji(
       "⚡ Securing Systems by Threat Detection and Analysis, IDS, IPS, and Incident Response"
     ),
     emoji("⚡ Conducting Web and Network Penetration Testing"),
-    emoji("⚡ Exploring the digital world of Cybersecurity")
+    emoji(
+      "⚡ Exploring the digital world of Cybersecurity"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -99,7 +100,8 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
-    }
+    },
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -147,7 +149,8 @@ const workExperiences = {
 
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
-  subtitle: "Certifications that I've gained over the past years",
+  subtitle:
+    "Certifications that I've gained over the past years",
 
   achievementsCards: [
     {
@@ -158,9 +161,9 @@ const achievementSection = {
       imageAlt: "ISC2 CC Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "View Certification",
           url: "https://drive.google.com/file/d/1hNo-ZwtpwvrVgSlRI67gltAH3-f2CI_s/view?usp=sharing"
-        }
+        },
       ]
     },
     {
@@ -175,7 +178,20 @@ const achievementSection = {
           url: "https://learn.microsoft.com/en-us/users/jameslorencee/credentials/e77158d3447b7324?ref=https%3A%2F%2Fwww.linkedin.com%2F"
         }
       ]
-    }
+    },
+    {
+      title: "Google Cybersecurity",
+      subtitle:
+        "Gained Knowledge and experience on Programming for cybersecurity tasks, Frameworks and controls that inform security operations, Using SIEM tools, Detecting and responding to incidents using an intrusion detection system, Performing packet capture and analysis.",
+      image: require("./assets/images/googleLogo.png"),
+      imageAlt: "Google Logo",
+      footerLink: [
+        {
+          name: "View Certification Credentials",
+          url: "https://learn.microsoft.com/en-us/users/jameslorencee/credentials/e77158d3447b7324?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+        }
+      ]
+    },
 
     // {
     //   title: "PWA Web App Developer",
@@ -242,12 +258,14 @@ const educationInfo = {
   ]
 };
 
+
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -283,12 +301,13 @@ const bigProjects = {
   display: false // Set false to hide this section, defaults to true
 };
 
+
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Writeups",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Driven by a passion for staying updated on the latest cybersecurity news, I enjoy writing and sharing my knowledge to help others learn from my experiences",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -336,7 +355,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -350,7 +369,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Feel free to contact me and get in touch!",
+  subtitle:
+    "Feel free to contact me and get in touch!",
   number: "+63 906 205 5134",
   email_address: "james.seril.12@gmail.com"
 };
@@ -359,7 +379,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false// Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
