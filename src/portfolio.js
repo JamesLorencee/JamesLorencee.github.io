@@ -46,12 +46,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My Expertise",
-  subTitle: "Aspiring Cybersecurity Engineer professional with Red and Blue Team Fundamentals",
+  subTitle:
+    "Aspiring Cybersecurity Engineer professional with Red and Blue Team Fundamentals",
   skills: [
     emoji(
       "🛡️ Securing systems through proactive threat detection and analysis, implementing and managing IDS/IPS solutions, conducting real-time monitoring, and executing comprehensive Incident Response strategies to mitigate cybersecurity risks."
     ),
-    emoji("🛡️ Conducting Web and Network Penetration Testing, including vulnerability assessments, exploit development, and security auditing, to enhance an organization’s overall cybersecurity posture"),
+    emoji(
+      "🛡️ Conducting Web and Network Penetration Testing, including vulnerability assessments, exploit development, and security auditing, to enhance an organization’s overall cybersecurity posture"
+    ),
     emoji(
       "🛡️ Exploring the digital world of Cybersecurity through ethical hacking, threat analysis, and security research. 🚀"
     )
@@ -100,8 +103,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
-    },
-   
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -149,8 +151,7 @@ const workExperiences = {
 
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
-  subtitle:
-    "Certifications that I've gained over the past years",
+  subtitle: "Certifications that I've gained over the past years",
 
   achievementsCards: [
     {
@@ -163,7 +164,7 @@ const achievementSection = {
         {
           name: "View Certification",
           url: "https://drive.google.com/file/d/1hNo-ZwtpwvrVgSlRI67gltAH3-f2CI_s/view?usp=sharing"
-        },
+        }
       ]
     },
     {
@@ -191,7 +192,7 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1VbkZTXAuA1hhwH1mZworMN2OFz9h_7hp/view?usp=sharing"
         }
       ]
-    },
+    }
 
     // {
     //   title: "PWA Web App Developer",
@@ -258,8 +259,6 @@ const educationInfo = {
   ]
 };
 
-
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -300,7 +299,6 @@ const bigProjects = {
   ],
   display: false // Set false to hide this section, defaults to true
 };
-
 
 // Blogs Section
 
@@ -355,7 +353,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false// Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,8 +367,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Feel free to contact me and get in touch!",
+  subtitle: "Feel free to contact me and get in touch!",
   number: "+63 906 205 5134",
   email_address: "james.seril.12@gmail.com"
 };
@@ -379,7 +376,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false// Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
