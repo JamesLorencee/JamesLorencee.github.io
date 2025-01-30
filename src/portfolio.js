@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "James Lorence",
-  title: "Hi Everyone, I'm James Lorence",
+  title: "Hi Everyone, I'm James Lorence Seril",
   subTitle: emoji(
     "A passionate Cybersecurity Engineer 🔒 with experience in both Red Teaming and Blue Teaming, leveraging tools like Burp Suite, Metasploit, Nmap, and Splunk. Dedicated to safeguarding individuals in cyberspace 🚀. "
   ),
@@ -45,15 +45,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "My Expertise",
   subTitle: "Aspiring Cybersecurity Engineer professional with Red and Blue Team Fundamentals",
   skills: [
     emoji(
-      "⚡ Securing Systems by Threat Detection and Analysis, IDS, IPS, and Incident Response"
+      "🛡️ Securing systems through proactive threat detection and analysis, implementing and managing IDS/IPS solutions, conducting real-time monitoring, and executing comprehensive Incident Response strategies to mitigate cybersecurity risks."
     ),
-    emoji("⚡ Conducting Web and Network Penetration Testing"),
+    emoji("🛡️ Conducting Web and Network Penetration Testing, including vulnerability assessments, exploit development, and security auditing, to enhance an organization’s overall cybersecurity posture"),
     emoji(
-      "⚡ Exploring the digital world of Cybersecurity"
+      "🛡️ Exploring the digital world of Cybersecurity through ethical hacking, threat analysis, and security research. 🚀"
     )
   ],
 
@@ -174,7 +174,7 @@ const achievementSection = {
       imageAlt: "Azure Fundamentals Logo",
       footerLink: [
         {
-          name: "View Certification Credentials",
+          name: "View Certification",
           url: "https://learn.microsoft.com/en-us/users/jameslorencee/credentials/e77158d3447b7324?ref=https%3A%2F%2Fwww.linkedin.com%2F"
         }
       ]
@@ -187,8 +187,8 @@ const achievementSection = {
       imageAlt: "Google Logo",
       footerLink: [
         {
-          name: "View Certification Credentials",
-          url: "https://learn.microsoft.com/en-us/users/jameslorencee/credentials/e77158d3447b7324?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1VbkZTXAuA1hhwH1mZworMN2OFz9h_7hp/view?usp=sharing"
         }
       ]
     },
