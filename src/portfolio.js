@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "James Lorence",
-  title: "Hi Everyone, I'm James Lorence",
+  title: "Hi Everyone, I'm James Lorence Seril",
   subTitle: emoji(
     "A passionate Cybersecurity Engineer 🔒 with experience in both Red Teaming and Blue Teaming, leveraging tools like Burp Suite, Metasploit, Nmap, and Splunk. Dedicated to safeguarding individuals in cyberspace 🚀. "
   ),
@@ -45,15 +45,19 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "My Expertise",
   subTitle:
     "Aspiring Cybersecurity Engineer professional with Red and Blue Team Fundamentals",
   skills: [
     emoji(
-      "⚡ Securing Systems by Threat Detection and Analysis, IDS, IPS, and Incident Response"
+      "🛡️ Securing systems through proactive threat detection and analysis, implementing and managing IDS/IPS solutions, conducting real-time monitoring, and executing comprehensive Incident Response strategies to mitigate cybersecurity risks."
     ),
-    emoji("⚡ Conducting Web and Network Penetration Testing"),
-    emoji("⚡ Exploring the digital world of Cybersecurity")
+    emoji(
+      "🛡️ Conducting Web and Network Penetration Testing, including vulnerability assessments, exploit development, and security auditing, to enhance an organization’s overall cybersecurity posture"
+    ),
+    emoji(
+      "🛡️ Exploring the digital world of Cybersecurity through ethical hacking, threat analysis, and security research. 🚀"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -158,7 +162,7 @@ const achievementSection = {
       imageAlt: "ISC2 CC Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "View Certification",
           url: "https://drive.google.com/file/d/1hNo-ZwtpwvrVgSlRI67gltAH3-f2CI_s/view?usp=sharing"
         }
       ]
@@ -171,8 +175,21 @@ const achievementSection = {
       imageAlt: "Azure Fundamentals Logo",
       footerLink: [
         {
-          name: "View Certification Credentials",
+          name: "View Certification",
           url: "https://learn.microsoft.com/en-us/users/jameslorencee/credentials/e77158d3447b7324?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+        }
+      ]
+    },
+    {
+      title: "Google Cybersecurity",
+      subtitle:
+        "Gained Knowledge and experience on Programming for cybersecurity tasks, Frameworks and controls that inform security operations, Using SIEM tools, Detecting and responding to incidents using an intrusion detection system, Performing packet capture and analysis.",
+      image: require("./assets/images/googleLogo.png"),
+      imageAlt: "Google Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1VbkZTXAuA1hhwH1mZworMN2OFz9h_7hp/view?usp=sharing"
         }
       ]
     }
@@ -247,7 +264,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -286,9 +303,9 @@ const bigProjects = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Writeups",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Driven by a passion for staying updated on the latest cybersecurity news, I enjoy writing and sharing my knowledge to help others learn from my experiences",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
