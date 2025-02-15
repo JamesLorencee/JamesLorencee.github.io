@@ -155,6 +155,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "CompTIA Security+",
+      subtitle:
+        "Gained Knowledge on domains like General Security Concepts, Threats, Vulnerabilities, and Mitigations, Security Architecture, Security Operations, Security Program Management and Oversight",
+      image: require("./assets/images/SecurityPlusLogo.png"),
+      imageAlt: "CompTIA Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://drive.google.com/file/d/1hNo-ZwtpwvrVgSlRI67gltAH3-f2CI_s/view?usp=sharing"
+        }
+      ]
+    },
+    {
       title: "ISC2 Certified in Cybersecurity (CC)",
       subtitle:
         "Gained Foundational Knowledge on Security Principles, Security Incident Response, Incident Response, Business Continuity, Disaster Recovery, Access Control Management, Network Security, Security Operations",
@@ -193,20 +206,6 @@ const achievementSection = {
         }
       ]
     }
-
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   imageAlt: "PWA Logo",
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
